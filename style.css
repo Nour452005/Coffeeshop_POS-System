@@ -1,0 +1,170 @@
+/* ========================================
+   Coffee Shop POS - Cozy Beige Theme
+   ======================================== */
+
+/* Global Styles */
+.root {
+    -fx-font-family: "Segoe UI", "Georgia", "Arial", sans-serif;
+}
+
+/* Title Label */
+.title-label {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5D4E37; /* Coffee brown */
+}
+
+/* Text Fields and Password Fields */
+.text-field {
+    -fx-background-color: #FFF8F0; /* Cream */
+    -fx-background-radius: 8;
+    -fx-border-color: #D4C5B9; /* Soft beige border */
+    -fx-border-radius: 8;
+    -fx-border-width: 1.5px;
+    -fx-padding: 10px 14px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #5D4E37;
+}
+
+.text-field:focused {
+    -fx-border-color: #B8956A; /* Caramel */
+    -fx-border-width: 2px;
+    -fx-background-color: #FFFCF7; /* Lighter cream */
+    -fx-effect: dropshadow(three-pass-box, rgba(184, 149, 106, 0.25), 8, 0, 0, 0);
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #FFF8F0;
+    -fx-background-radius: 8;
+    -fx-border-color: #D4C5B9;
+    -fx-border-radius: 8;
+    -fx-border-width: 1.5px;
+}
+
+.combo-box:focused {
+    -fx-border-color: #B8956A;
+    -fx-border-width: 2px;
+    -fx-background-color: #FFFCF7;
+}
+
+.combo-box .list-cell {
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #5D4E37;
+}
+
+.combo-box:hover {
+    -fx-border-color: #C9A882;
+}
+
+/* Login Button - Coffee Brown Theme */
+.login-button {
+    -fx-background-color: linear-gradient(to bottom, #8B6F47, #6F5438); /* Coffee gradient */
+    -fx-text-fill: #FFF8F0;
+    -fx-background-radius: 8;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(93, 78, 55, 0.3), 6, 0, 0, 2);
+}
+
+.login-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #A0856B, #7D5E42);
+    -fx-effect: dropshadow(three-pass-box, rgba(93, 78, 55, 0.4), 10, 0, 0, 3);
+    -fx-scale-y: 1.02;
+}
+
+.login-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #6F5438, #5D4E37);
+    -fx-translate-y: 2px;
+    -fx-effect: dropshadow(three-pass-box, rgba(93, 78, 55, 0.2), 3, 0, 0, 1);
+}
+
+/* General Button Styles */
+.button {
+    -fx-cursor: hand;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+}
+
+.button:hover {
+    -fx-opacity: 0.95;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #5D4E37; /* Coffee brown */
+}
+
+/* Error Label */
+.error-label {
+    -fx-text-fill: #C87941; /* Terracotta/burnt orange */
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+/* Success Label */
+.success-label {
+    -fx-text-fill: #6B8E23; /* Olive green for success */
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+/* Scroll Pane */
+.scroll-pane {
+    -fx-background-color: #FFF8F0;
+    -fx-border-color: #D4C5B9;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #FFF8F0;
+}
+
+/* List View */
+.list-view {
+    -fx-background-color: #FFF8F0;
+    -fx-border-color: #D4C5B9;
+    -fx-border-radius: 8;
+}
+
+.list-cell {
+    -fx-background-color: #FFF8F0;
+    -fx-text-fill: #5D4E37;
+}
+
+.list-cell:selected {
+    -fx-background-color: #E8DCC8; /* Light tan */
+    -fx-text-fill: #5D4E37;
+}
+
+.list-cell:hover {
+    -fx-background-color: #F5EDE0;
+}
+
+/* Table View */
+.table-view {
+    -fx-background-color: #FFF8F0;
+    -fx-border-color: #D4C5B9;
+    -fx-border-radius: 8;
+}
+
+.table-view .column-header {
+    -fx-background-color: #E8DCC8;
+    -fx-text-fill: #5D4E37;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: #FFF8F0;
+    -fx-text-fill: #5D4E37;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #E8DCC8;
+    -fx-text-fill: #5D4E37;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #F5EDE0;
+}

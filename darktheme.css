@@ -1,0 +1,76 @@
+/* ========================================
+   Coffee Shop POS - DARK MODE
+   ======================================== */
+
+.root {
+    -fx-font-family: "Segoe UI", "Georgia", "Arial", sans-serif;
+    -fx-background-color: #121212;
+}
+
+.label {
+    -fx-text-fill: #E0E0E0;
+}
+
+/* TEXT INPUTS */
+.text-field {
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: #E0E0E0;
+    -fx-border-color: #333;
+}
+
+.text-field:focused {
+    -fx-border-color: #4E9AF1;
+    -fx-background-color: #1D1D1D;
+}
+
+/* BUTTONS */
+.button {
+    -fx-background-color: #333;
+    -fx-text-fill: #E0E0E0;
+    -fx-border-color: #444;
+    -fx-border-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #444;
+}
+
+/* COMBO BOX */
+.combo-box {
+    -fx-background-color: #1E1E1E;
+    -fx-border-color: #333;
+    -fx-text-fill: #E0E0E0;
+}
+
+/* TABLE VIEW */
+.table-view {
+    -fx-background-color: #1E1E1E;
+    -fx-control-inner-background: #1E1E1E;
+    -fx-text-background-color: #E0E0E0;
+    -fx-border-color: #333;
+}
+
+.table-row-cell {
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: #E0E0E0;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+}
+
+.column-header {
+    -fx-background-color: #242424;
+    -fx-text-fill: #E0E0E0;
+}
+
+/* SCROLL PANE */
+.scroll-pane {
+    -fx-background-color: #121212;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #121212;
+}
+
